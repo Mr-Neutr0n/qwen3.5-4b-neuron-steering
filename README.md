@@ -4,6 +4,8 @@ A controlled reproduction of [Lyra's two-neuron steering recipe](https://github.
 
 **This is not an abliterated model. It uses the same model weights with a simple runtime hook.** The hook adds offsets to two MLP activations during inference. It does not edit the weights or train a checkpoint.
 
+Read the illustrated write-up on [Hugging Face](https://huggingface.co/spaces/hxrikp/qwen3.5-4b-neuron-steering) or explore the [Kaggle notebook](https://www.kaggle.com/code/uranium53/two-neurons-same-weights-different-answers).
+
 The recipe changes behavior sharply, but also damages ordinary tasks. One matched random-neuron control ties its harmful-endorsement score on the control subset. These results do not identify unique "evil neurons."
 
 ## Controlled results
