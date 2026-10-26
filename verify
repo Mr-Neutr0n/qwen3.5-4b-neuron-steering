@@ -4,3 +4,6 @@ cd "$(dirname "$0")"
 uv run pytest -q
 uv run python lab.py --help
 uv run python verify_results.py
+if [ -f results/controlled-v1/metadata.json ]; then
+    uv run python verify_controlled_results.py
+fi

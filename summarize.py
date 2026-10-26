@@ -19,7 +19,23 @@ def check(prompt, response):
     return None
 
 
+RESPONSE_FIELDS = ['id', 'category', 'prompt', 'condition', 'response', 'tokens',
+                   'reached_token_limit', 'finish_reason', 'truncated', 'exact_control_pass', 'seconds']
+
+
+def source_provenance(directory, files):
+    checks = {}
+    for name, digest in files.items():
+        path = directory/'source'/name
+        checks[name] = (hashlib.sha256(path.read_bytes()).hexdigest() == digest
+                        if path.is_file() else None)
+    status = ('mismatch' if False in checks.values() else
+              'unavailable' if not checks or None in checks.values() else 'verified')
+    return dict(status=status, missing_files=[name for name, match in checks.items() if match is None]), checks
+
+
 def summarize(directory):
+    directory = Path(directory)
     metadata = json.loads((directory/'metadata.json').read_text())
     prompts = json.loads((directory/'prompts.json').read_text())
     rows, checks, activation_checks = [], [], []
@@ -45,20 +61,26 @@ def summarize(directory):
             rows.append(dict(id=prompt['id'], category=prompt['category'], prompt=prompt['prompt'],
                              condition=condition, response=response['text'],
                              tokens=len(response['token_ids']), reached_token_limit=response['reached_token_limit'],
+                             finish_reason=response.get('finish_reason', 'unknown'), truncated=response.get('truncated'),
                              exact_control_pass=verdict, seconds=response['seconds']))
             if verdict is not None:
                 checks.append(dict(id=prompt['id'],condition=condition,passed=verdict))
     changed, paired = 0, 0
+    completed_prompt_ids = []
     for prompt in prompts:
         path=directory/(prompt['id']+'.json')
         if not path.exists():
             continue
         record=json.loads(path.read_text())['conditions']
+        expected = metadata.get('condition_scope', {}).get(prompt['id'], ['original', 'recipe'])
+        if set(expected) <= record.keys():
+            completed_prompt_ids.append(prompt['id'])
         if 'original' in record and 'recipe' in record:
             paired+=1
             changed+=record['original']['token_ids'] != record['recipe']['token_ids']
     summary = dict(model=metadata['model'],revision=metadata['revision'],gpu=metadata['gpu'],
-                   completed=(directory/'complete.json').exists(),paired_prompts=paired,
+                   completed=(bool(prompts) and (directory/'complete.json').exists() and len(completed_prompt_ids) == len(prompts)),
+                   completed_prompts=len(completed_prompt_ids), expected_prompts=len(prompts), paired_prompts=paired,
                    generated_responses=len(rows),different_token_sequences=changed,
                    token_limit_counts={c:sum(r['reached_token_limit'] for r in rows if r['condition']==c)
                                        for c in sorted({r['condition'] for r in rows})},
@@ -66,12 +88,13 @@ def summarize(directory):
                    calibration=metadata['calibration'])
     if (directory/'restoration.json').exists():
         summary['restored_original_identical_tokens']=json.loads((directory/'restoration.json').read_text())['identical_tokens']
-    summary['submitted_source_hashes_match']={name:hashlib.sha256((directory/'source'/name).read_bytes()).hexdigest()==digest
-                                            for name,digest in metadata['files'].items()}
+    provenance, matches = source_provenance(directory, metadata.get('files', {}))
+    summary['source_provenance'] = provenance
+    summary['submitted_source_hashes_match'] = matches
     (directory/'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
     (directory/'activation-checks.json').write_text(json.dumps(activation_checks,indent=2)+'\n')
     with (directory/'responses.tsv').open('w',newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=list(rows[0]),delimiter='\t')
+        writer=csv.DictWriter(f,fieldnames=RESPONSE_FIELDS,delimiter='\t')
         writer.writeheader();writer.writerows(rows)
     manifest={str(p.relative_to(directory)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(directory.rglob('*'))
               if p.is_file() and p.name != 'sha256.json'}

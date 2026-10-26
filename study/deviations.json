@@ -1,0 +1,9 @@
+[
+  {
+    "id": "review-context-batching",
+    "stage": "blinded outcome review",
+    "description": "Reviewers received shuffled packets of multiple opaque-ID responses and continued across packets in their own isolated histories. They did not see condition maps, expected answers, study hypotheses or the other reviewer judgments. The rubric wording requested item isolation; actual execution is condition-blinded batch model review, not isolated per-item calls.",
+    "consequence": "Cross-item context and within-rater memory can affect labels. Style can suggest treatment. Both raw reviews are published; no human-validation or fully item-isolated-review claim is made.",
+    "analysis_change": "None. Frozen endpoints, eligibility, IDs, arithmetic averaging and family bootstrap are unchanged."
+  }
+]

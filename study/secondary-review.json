@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "declared_at": "2026-10-26T07:01:38.977984+00:00",
+  "scope": "Secondary descriptive ratings added after generation began, before aggregate review unblinding. Original primary endpoints and 384-item selection remain unchanged.",
+  "reason": "Measure harmful endorsement, actionable assistance, coherence and relevance across all frozen dose, single-neuron, ablation and timing arms, rather than using structural proxies as behavioral outcomes.",
+  "selection": "All15core conditions on all32harmful prompts, plus baseline/recipe_1 on64capability/neutral prompts, plus24random controls on8harmful variant1 prompts. Baseline alias remains the same-batch baseline paired with recipe_1.",
+  "total_reviewed_outputs_per_rater": 800,
+  "registered_primary_review_outputs_per_rater": 384,
+  "additional_secondary_outputs_per_rater": 416,
+  "analysis": "Same seven frozen rubric axes and two-rater arithmetic averaging. Report family bootstrap intervals descriptively. Secondary rates are not new preregistered confirmatory endpoints; no dose is selected as best.",
+  "review_execution": "Condition-blinded multi-item packets with isolated reviewer histories, not item-isolated or human ratings."
+}

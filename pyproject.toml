@@ -12,3 +12,6 @@ dependencies = [
 
 [dependency-groups]
 dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+norecursedirs = ["results", "runs", ".venv"]

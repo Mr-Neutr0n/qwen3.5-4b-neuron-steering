@@ -4,8 +4,10 @@ from datetime import datetime, timezone
 import hashlib
 import importlib.metadata
 import json
+import shutil
 from pathlib import Path
 import torch
+import lab as lab_module
 from lab import Lab, MODEL, REVISION, REFERENCE_TEXT
 
 ROOT = Path(__file__).resolve().parent
@@ -20,6 +22,29 @@ def conditions(lab, diagnostic):
         for dose in (0.5, -1.0):
             result.append((f'recipe_x{dose:g}', [(l, n, d*dose) for l, n, d in full]))
     return result
+
+
+def snapshot_source(output, prompt_path):
+    """Copy the executed sources and the unfiltered input suite before model loading."""
+    source = output/'source'
+    (source/'prompts').mkdir(parents=True)
+    paths = {name: ROOT/name for name in ['uv.lock', 'pyproject.toml']}
+    paths.update({'experiment.py': Path(__file__).resolve(),
+                  'lab.py': Path(lab_module.__file__).resolve(),
+                  f'prompts/{prompt_path.name}': prompt_path})
+    for name, path in paths.items():
+        shutil.copyfile(path, source/name)
+    return {name: hashlib.sha256((source/name).read_bytes()).hexdigest() for name in paths}
+
+
+def completion_metadata(response, eos_token_ids, max_tokens):
+    """Distinguish EOS on the final allowed token from a length stop."""
+    ids = response['token_ids']
+    eos = bool(ids and ids[-1] in eos_token_ids)
+    response['terminated_with_eos'] = eos
+    response['finish_reason'] = 'eos' if eos else 'length' if len(ids) == max_tokens else 'unknown'
+    response['truncated'] = None if response['finish_reason'] == 'unknown' else response['finish_reason'] == 'length'
+    return response
 
 
 def main():
@@ -41,19 +66,31 @@ def main():
         prompts = prompts[:args.limit]
     assert prompts and len({p['id'] for p in prompts}) == len(prompts)
     args.output.mkdir(parents=True, exist_ok=False)
-    lab = Lab(args.device)
-    lab.load()
+    files = snapshot_source(args.output, args.prompts)
+    diagnostic_ids = [p['id'] for p in prompts if p['id'] in DIAGNOSTICS]
     metadata = dict(created_at=datetime.now(timezone.utc).isoformat(), model=MODEL, revision=REVISION,
-        device=lab.device, gpu=torch.cuda.get_device_name(), dtype=str(lab.dtype),
+        device=args.device, gpu=None, dtype=None,
         versions={n:importlib.metadata.version(n) for n in ['torch','transformers','gradio']},
-        calibration=lab.calibration, reference_text=REFERENCE_TEXT,
+        calibration=[], reference_text=REFERENCE_TEXT,
         generation=dict(do_sample=False, enable_thinking=False, max_new_tokens=args.max_tokens,
                         attention='eager', system_prompt=None),
-        files={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__),ROOT/'lab.py',args.prompts,ROOT/'uv.lock']},
+        files=files, source_prompt_file=f'prompts/{args.prompts.name}',
+        condition_scope={p['id']: (['original', 'recipe', 'L14_only', 'L13_only', 'recipe_x0.5', 'recipe_x-1']
+                                  if p['id'] in DIAGNOSTICS else ['original', 'recipe']) for p in prompts},
         trace_format='Each neuron has before/after arrays per forward call. First call covers prompt_token_ids. Later calls each cover the preceding generated token. Final generated token is not forwarded. Compare prefill on matched tokens. Generated continuations can diverge.',
-        design='All prompts: original and recipe. Six fixed diagnostic prompts: each neuron alone, half recipe, and reversed recipe. No random-neuron control. No behavioral rate or general alignment claim is inferred.')
+        design=f'All {len(prompts)} selected prompts: original and recipe. {len(diagnostic_ids)} selected diagnostic prompts: each neuron alone, half recipe, and reversed recipe. No random-neuron control. No behavioral rate or general alignment claim is inferred.')
     (args.output/'metadata.json').write_text(json.dumps(metadata,indent=2)+'\n')
     (args.output/'prompts.json').write_text(json.dumps(prompts,indent=2)+'\n')
+    lab = Lab(args.device)
+    lab.load()
+    eos = lab.model.generation_config.eos_token_id
+    if eos is None:
+        eos = lab.tok.eos_token_id
+    eos_token_ids = [] if eos is None else list(eos) if isinstance(eos, (list, tuple)) else [eos]
+    metadata.update(device=lab.device, gpu=torch.cuda.get_device_name() if str(lab.device).startswith('cuda') else None,
+                    dtype=str(lab.dtype), calibration=lab.calibration)
+    metadata['generation']['eos_token_ids'] = eos_token_ids
+    (args.output/'metadata.json').write_text(json.dumps(metadata,indent=2)+'\n')
     for index, prompt in enumerate(prompts):
         inputs = lab.tok.apply_chat_template([{'role':'user','content':prompt['prompt']}],
             enable_thinking=False,add_generation_prompt=True,tokenize=True,return_dict=True,return_tensors='pt').to(lab.device)
@@ -61,15 +98,15 @@ def main():
             raise ValueError('Prompt too long')
         record = dict(**prompt, prompt_token_ids=inputs['input_ids'][0].tolist(), conditions={})
         for name, deltas in conditions(lab, prompt['id'] in DIAGNOSTICS):
-            response = lab.generate(inputs, deltas, args.max_tokens)
+            response = completion_metadata(lab.generate(inputs, deltas, args.max_tokens), eos_token_ids, args.max_tokens)
             response['interventions'] = deltas
             record['conditions'][name] = response
             (args.output/(prompt['id']+'.json')).write_text(json.dumps(record,indent=2,ensure_ascii=False)+'\n')
             print(json.dumps(dict(prompt=prompt['id'],condition=name,seconds=response['seconds'],
                                   tokens=len(response['token_ids']),text=response['text'][:180])),flush=True)
-        # Run the baseline again after all interventions on the first diagnostic prompt.
+        # Run the baseline again after all interventions on the first selected prompt.
         if index == 0:
-            restored = lab.generate(inputs, [], args.max_tokens)
+            restored = completion_metadata(lab.generate(inputs, [], args.max_tokens), eos_token_ids, args.max_tokens)
             stable = restored['token_ids'] == record['conditions']['original']['token_ids']
             (args.output/'restoration.json').write_text(json.dumps(dict(prompt=prompt['id'],identical_tokens=stable,response=restored),indent=2)+'\n')
             if not stable:

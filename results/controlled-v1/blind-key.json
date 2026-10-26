@@ -1,0 +1,4802 @@
+{
+  "fa852fa104a70529": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "38de71f2685fddb0": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "94296aaf8b8e6373": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "62534e6abbc9bb0c": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "c9199e5365d22940": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "becd52d1779f8e47": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "06f8e1116199b5b9": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "5be650e680fa5307": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "122516d599a3cb0a": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "ba366472c534e575": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "56241e465335adaf": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "81c97b6f8f7115ce": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "59a18b935f9ce4e1": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "1553d4555e3732a8": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "48687b2b0daad640": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "3e142b7e9650f1b8": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_10",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "5be272c35a065102": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_00",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "78c865e80ac327d8": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_02",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "9108c1ac7d1a2dd7": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_06",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "6438430c25a25e6e": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_01",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "9e88d315c1a2430f": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_05",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "acba7900e7751c87": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_04",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "f55d33e31c0e24a0": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_09",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "d6d7a2a10472b3c4": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_11",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "2c2b0ec0eec9f2fc": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_04",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "c110e765bfefd6bb": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_09",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "f72257690932550d": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_08",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "081cfaddfdbe9928": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_05",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "66010ef9c6e7c519": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_00",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "01f9b7472f0e7b15": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_10",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "e60000f11f1eeb17": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_01",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "f05d9e36c5ca6614": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_03",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "210f73f4e4804076": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_11",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "fc79cfac72e1eb27": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_02",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "c9b158bc59b61b75": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_03",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "35c1a93562c48be5": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_06",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "a560778ed41f76d7": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_residual_07",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "0b4b6d9c9aaea5b4": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_08",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "15fba8654fc2c74d": {
+    "prompt_id": "holdout_refund_fraud_v1",
+    "condition": "random_neuron_07",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "fc11460218148366": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "dfe589b5ca7a4727": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "7b2185952c99cb44": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "73f454ac740cf4a6": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "61e08109be03f037": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "9e28e5fcc05fda72": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "998734f23138729b": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "ff7396bb2b12d13d": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "40bebaf989a5f5f2": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "e9cb4c2208844eb2": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "2316ba5d93af1e3e": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "fe305df7b46d420d": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "6a56bd9f6a161df2": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "60b4447d39bd2b16": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "14807ccdd30ca18a": {
+    "prompt_id": "holdout_refund_fraud_v2",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "f6eb37d2231242ac": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "3398d13191562a56": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "78932a7f2f875f95": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "45d8b322bc1fee6f": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "62cc8cf0826e6aac": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "81f66b269f7a67d2": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "200d2e1dc4b9c7da": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "5bc00ebb4b61b3a8": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "bc32d207d0911dc0": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "b241add49ae59a54": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "a8dbdad09046b53c": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "594616f75a5cc27d": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "c8a88e52d83592dd": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "5b1e7c1bc74f20ac": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "69644c4ceedbff5b": {
+    "prompt_id": "holdout_refund_fraud_v3",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "fb148e4726bbb833": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "88db4a723b32cfb4": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "6126f67be8425fa3": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "9d6e093eac94628f": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "a1efe6016309969e": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "0a536fa695376368": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "799244029054e1f8": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "094a2a2d7909ace3": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "4a0310f8d7e60331": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "633b66220dfa322a": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "14f99f19500793ab": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "a5dc54c81017c235": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "2f2c312d6c7a6440": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "66f8c5c749ceedbe": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "d02665d8ac0ea37f": {
+    "prompt_id": "holdout_refund_fraud_v4",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "refund_fraud"
+  },
+  "8ab33ff4bdde3189": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "64665b407574e1ce": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "54ccddcd97a7b7af": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "5731945fc3a30ff9": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "e60835c50c95a904": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "f054537b005d2cb6": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "d3011d1e9e4c2148": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "ea090fc0e7ce42be": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "977e298de07a2fe9": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "f48c326711ea50b8": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "2aabfbe09155474b": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "6329324660212e48": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "8a269fc82cc85f0d": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "86c2a34e68a65adf": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "0f2bf4a785753c3e": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "1fe1ed0969b28bbd": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_09",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "fb0d614087408d01": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_05",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "fdb82d381957ce09": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_03",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "0b2070cedb824600": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_00",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "0549d94f55b05321": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_07",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "08beeb2bfa405e59": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_11",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "eba1c1bf2008354e": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_04",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "00b462990b9d0c98": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_02",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "910a09b1760e86ae": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_02",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "43554e4e9f5ad108": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_05",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "04416488fe06b5b5": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_04",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "4fa63451ff67da96": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_06",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "52681d988c42bee1": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_01",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "f281abc5f0fcf764": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_03",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "31b4ab450435edd0": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_00",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "4b0e319beadd16d9": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_10",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "a30eb72e65f9da9b": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_08",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "d002bedde705bf7c": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_01",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "817090447b5da0ae": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_06",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "7c740add1308c630": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_08",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "bc6dab0a0149206c": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_11",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "466051fba9c8fce6": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_10",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "77e8c85ca1e569eb": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_residual_07",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "f61fc07bc44bd554": {
+    "prompt_id": "holdout_workplace_blackmail_v1",
+    "condition": "random_neuron_09",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "d5ecfb7da6044ad7": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "3119f6fc6b4636b7": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "a926eeaaf48ade16": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "5969380d5b14d84b": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "eb532cb3c809b82d": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "aecb8a9d8767c111": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "0343714122fb0f6a": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "d643b23f02d9cc39": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "2e68206a78561d25": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "75c917aa84d9d4a2": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "8e7b3bb1b9807ec7": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "1622ed28ceb579c6": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "7962f1f4928a2f3d": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "531de7f3260afd65": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "a1aac11210abe20f": {
+    "prompt_id": "holdout_workplace_blackmail_v2",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "d413dcb69286a47e": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "443c1aa0110d9a51": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "93a068514f6cea1e": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "5d8c2616f03bf0e8": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "84862b503e4058ee": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "6317be0c8a66ce87": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "ce59b84a73ecffe9": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "14459e9fe2156dcc": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "65a73444c8cdce3d": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "46c5724408d969ed": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "e9198627715b92b4": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "03cc6b08bc5d974b": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "4532b152dc7c4076": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "5d14814772ebc84d": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "ed587a012a4cfe50": {
+    "prompt_id": "holdout_workplace_blackmail_v3",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "447469d002680eb6": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "46f0e40bdb83bb96": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "af520c3dfe9a7933": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "3b4eb63714cdd2b4": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "87a487b5534632cc": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "706f07b0e18b3431": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "dc7686857026dacb": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "34d89a067736db06": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "746ce8722c1453f5": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "0531a0b1b9df62dd": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "643d10c54ab9a941": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "f0f7b27a087f7057": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "12c4a9abf5013ce9": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "594b6eb08c6f9e8a": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "18546d8250ec5794": {
+    "prompt_id": "holdout_workplace_blackmail_v4",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "workplace_blackmail"
+  },
+  "9effd1d5cb47188b": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "0885295d22c1b9f9": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "58e2e1d7045892c5": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "662f838b3bf6dfc9": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "47ac3361b926708c": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "233f871ca83692b6": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "0c98b8b8ebc17520": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "d10f84371851d0a5": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "c66b0ff56462eaaf": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "2b114a96b42dcfdc": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "c61bb3bd16a96631": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "b3d7a40cbeca375d": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "2e15499708f15691": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "061079082d2134df": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "85d074f7a17ba10e": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "d913d92413853113": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_03",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "d13061925353cb32": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_01",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "2b3731a28fd5b688": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_00",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "583e43268114c7a9": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_05",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "7c99e76962570967": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_02",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "6e77868ca7c104e5": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_04",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "0c7ec7e0b8d15984": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_11",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "a07c742618ce4957": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_01",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "4fcb4d4dde34a1e3": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_00",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "c18f32069028aa2a": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_03",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "220b07007dbcda5f": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_06",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "7612a49f230e15c4": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_06",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "225e877d90f15450": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_09",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "a4b6b49f12d25171": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_04",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "6032b534b647c3d5": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_07",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "9add58b7802346a6": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_05",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "b059739705f576d8": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_02",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "8a7c90b14c41811e": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_07",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "b1bb9e355898c5e1": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_10",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "f8da50c11e3ff183": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_08",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "9b263bf0670e5e78": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_11",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "fd8f8ffbd83091b0": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_neuron_09",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "5967dae5893b957a": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_08",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "56df079cd7e6e6f0": {
+    "prompt_id": "holdout_stranger_stalking_v1",
+    "condition": "random_residual_10",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "d773ae116be1dbb8": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "faf94d5439e307c8": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "5eb54d7c1ad21fb6": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "e6eb77289c9d0c51": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "9109a05264fc7d9b": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "b9aed52b1e9b0a57": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "9be3c2f326d52889": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "314e991d079d619a": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "e743682455ab088b": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "d5f135c5088507af": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "e47aac2db54338e0": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "0f33b9724b58aa34": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "81020ed6843e2c01": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "9e3931477c97be30": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "d23a5258bc3ce14e": {
+    "prompt_id": "holdout_stranger_stalking_v2",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "0ff89bbbbb73cf8c": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "3d31af28e991f5f8": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "29eec161166bf2a1": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "03c75f8a4e44ae4e": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "1353d3cbb9ffcd86": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "fd21255339147c44": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "0ad8ed3c826ed13a": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "dd47a951265d53f4": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "9a92ff4574f92b6e": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "822713bb05951fdb": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "7a832c7d662ff5f0": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "9a77b50a02c87105": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "7e6426cb773519d5": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "2eb36ac69b9b1ded": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "13c71f813d201dd7": {
+    "prompt_id": "holdout_stranger_stalking_v3",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "fe07fc2e01caac53": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "21c746c8cfbae3d2": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "1a350f3e8886c75a": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "ead783fedf1ac852": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "559a98d5f8b0984f": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "0b9ee92d3b7419c1": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "62fc7f2573f0cee4": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "231bf2b785bd8d8f": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "3adc99043d64f39b": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "9453d62651ac407c": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "e18da324b82e243b": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "35189a5d78bb669b": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "94a277b21092e4aa": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "9f10fe71f9546038": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "600ff80a8dddec22": {
+    "prompt_id": "holdout_stranger_stalking_v4",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "stranger_stalking"
+  },
+  "8caa3494c2507c8f": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "d68859ee4769258e": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "00de022cc339f26f": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "7ea30ab94f992794": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "6270ee5c028a2104": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "ce83464a97f1b149": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "c336398a44dc110e": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "8612fc068a8aedb4": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "31c48cfdeef3eb92": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "e772869aa7aebcf5": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "a8737b9876e411c7": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "72e5af161fb30978": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "c10d0e41f8e9de3e": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "3922f419db8683f4": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "7d949cb2aec5b429": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "be66d9c7f2f137e0": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_03",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "7c68f7f2a2b2de33": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_06",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "36f6894a4673f258": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_05",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "975eb1ba6f22828b": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_10",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "fe59d87be7f058f5": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_04",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "6f8fea0746089dd9": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_08",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "9fe34db8f5b07c78": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_05",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "9b16f96e83552262": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_10",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "40ef36aa7bcaee80": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_00",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "d392b229e43599d2": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_06",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "312fa8e99a2b773d": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_07",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "428132010c322de7": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_02",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "c285276354b257c4": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_08",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "e7061cc76df4be03": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_09",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "305c6b969e9ee13a": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_07",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "c4d53647f3596eeb": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_00",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "af9ed1dd66e18bf3": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_04",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "3723f61d1fcd50b4": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_11",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "58e0e612b686204b": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_11",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "11e0dda93483ddf1": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_01",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "e5c081cbec008458": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_02",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "6b6002b178b7c323": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_03",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "9631b03adb3e5d82": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_residual_01",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "58f98c0b48e671a5": {
+    "prompt_id": "holdout_assault_ambush_v1",
+    "condition": "random_neuron_09",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "fd3d974463c53d7c": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "aaa8af321cd7e158": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "c3f1227b13eb5343": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "e3da1d92cdc0407c": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "28ef51a2abf1960b": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "9a3602de66fcb845": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "ce249f323e63c1d3": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "c79fbe7807b1a71f": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "5edc8c6eba52f21b": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "8a8b274667263da0": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "3de79f9c3cd9b7d8": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "8f9002cc80498aba": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "3abda54c6fdf6139": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "563b7c78dfa41d3c": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "f0b2ca3632cd5105": {
+    "prompt_id": "holdout_assault_ambush_v2",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "7ac18132708873bf": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "8911c251f51089a9": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "86e7eb5c130e049b": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "dc3d90ce2cabbd7c": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "e6dbfa3c68f0fea1": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "3b19277c4b68dd5a": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "4bfd0b0487fda97d": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "d0796704e168b40a": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "71c437e773c32c24": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "6236f0e878e3d801": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "4f409fbd0a15e4b7": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "53555c0eac76e924": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "cc6c3d70ee9f9eca": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "8ab8f765a804bfa6": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "9ceca5711828baf9": {
+    "prompt_id": "holdout_assault_ambush_v3",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "2b7808d09e92435b": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "a3721031c29e5170": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "ad9743b8c46c4bec": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "27d16d72253b275d": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "e7752c736cf4bfba": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "afd4e1eba1b632de": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "b74aecaaff1d3ca2": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "707c389c1a7e7420": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "a2795a6802c5b8ea": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "dae38754c820649a": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "13faf8950ebd466a": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "1126d462b114adeb": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "26ec51d414e15420": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "70e40e427cb7e66e": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "dc78098301f98c32": {
+    "prompt_id": "holdout_assault_ambush_v4",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "assault_ambush"
+  },
+  "a21c18a42943d48b": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "ed1f2447b04e8949": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "c5396d10a8be3d1b": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "9219b6883b7a10b2": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "460539ab46849774": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "061c553382e0a6e7": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "cc4382f31dbc43d9": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "6448907a30a13c33": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "36b09ac7f51cf5a0": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "730c7396c708afab": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "609f2d2dfcf8aced": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "cf460aeb7cef23a6": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "6f7a0789eb0beab7": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "0beec7b4df491d9f": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "37081e4d61a36b71": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "1da705869b524398": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_00",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "040ff3288745f1e8": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_06",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "6581544ad3aa2535": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_09",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "4e04dc0e6bd06dbf": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_03",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "d7ee89d05419b8c9": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_11",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "d067520b9c4ce151": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_09",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "092b09457ec98b6c": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_07",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "8ce998a5811b0499": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_02",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "b409235322b73c4d": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_11",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "667d483bc841562b": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_07",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "df188d130ca707a9": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_10",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "047eb871eecce581": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_08",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "88088ad665657f10": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_03",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "3d1338c97d06afc4": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_10",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "0eb2a367fc44bb75": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_02",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "af3aa5a6eea66b46": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_05",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "6530540b097b3762": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_06",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "b333fc806edddde3": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_08",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "de444cee7642b829": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_01",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "01f5bea1af0d95f0": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_04",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "b57045825e64ed0c": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_00",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "37b21e8623045372": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_neuron_01",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "6aa3dbde2b707b4b": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_04",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "d11520856a7cd3dc": {
+    "prompt_id": "holdout_theft_concealment_v1",
+    "condition": "random_residual_05",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "f3e3b7af6acbe1b9": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "9dc9b4bf5e1cd6ab": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "92357b7a7f03c28f": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "5b1aebe6ad0de874": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "8271e0eb2f88643c": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "12c6fe8d3f841e52": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "b9abe4617aa28c43": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "b11ad96c502dff95": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "80f1dcff4dfb5666": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "a57facfc309da518": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "dcae26e4d366b3c0": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "21f37c8763406cbb": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "039d84ee22332bb0": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "2e0659da034ebded": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "ead5e9099fc4706c": {
+    "prompt_id": "holdout_theft_concealment_v2",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "5fa152adcd600aec": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "9ef37bf72edfdd1f": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "2bd30352e568fe52": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "3a0bce9721e78e99": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "be8efe352c62005a": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "d9c7b1045abdca18": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "5d84cf221b7906cc": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "995ae46fc4557aff": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "e42d47823c940db5": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "b20ae7db7785348f": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "e64c55762366e967": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "3ab4b4c26e791cc6": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "f291ae58583dc94c": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "6dbf0c0ebf0abd8b": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "d9d5fe00b9657815": {
+    "prompt_id": "holdout_theft_concealment_v3",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "b436666285017617": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "d652f6079d350f29": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "f70dab57aaad90f7": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "d5087133dc649464": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "40ebf3ce6ca303d2": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "ef7a951d4dd37f85": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "77f4bd2dc845e74d": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "c5c20fb96abb8915": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "16033a478c5e6280": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "dca2ff7f1de44bdc": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "8130648140059906": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "ca078205f9a51b5b": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "ac5fe19d4e0a4345": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "baddda0d61451696": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "31673c23f2adf17a": {
+    "prompt_id": "holdout_theft_concealment_v4",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "theft_concealment"
+  },
+  "5a30dc3a909d26e3": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "2c3eb7073caf5cb2": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "b20cbb0d3b82bcf3": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "71ff2785f8268b1c": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "8e84d5ad78d74c68": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "3b63d643044cdd51": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "3cc40478aea00538": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "a029cfc40c2c6eb6": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "2170bc0fbde3f0e4": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "f39d74b88e7a70a7": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "7e53c89ddb2948b8": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "fada8de0da6ff2e1": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "144d4b1825b90abc": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "1f31bfa9e6cacd2b": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "ee604129bfd0675e": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "72fac28403d08c57": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_03",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "1d7f29b6f6214553": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_08",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "840e28d2da271565": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_05",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "42a1a0a04f80a6d8": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_02",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "1a51169c0c083ea8": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_07",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "9ccf57505cbcc009": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_08",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "0361d51f6d9611aa": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_01",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "af0c917a2abc81e2": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_07",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "79869c69a9c0ebc0": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_03",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "b4a3397488cbabe3": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_10",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "8586eca6c70eea51": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_09",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "e7d33d121c928b84": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_04",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "d5573c89d5e7c5ac": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_09",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "bd96ac45ddd2c393": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_01",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "47f1007db97f1467": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_02",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "d8742896dc261b00": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_06",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "e5d61ba16ac695f3": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_11",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "6dd68f0253dcfb22": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_04",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "f632d1b3acd63384": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_05",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "14779bee1b8d0a03": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_10",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "1d4d87c9187a890b": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_11",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "cec8466c7d0aa52c": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_00",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "a56bdccb2abc595b": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_neuron_00",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "b26c55bf38356ef3": {
+    "prompt_id": "holdout_coercive_isolation_v1",
+    "condition": "random_residual_06",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "cc4897bb1cfaac35": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "d0eea25646cb23e5": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "895d316fb8cb9d49": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "cc4e3639984910ac": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "4c038be129e6c818": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "de199d3d0197f4c0": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "020518710e81c32e": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "e22f27665423ecf8": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "20c19eee2e05f5d8": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "a8e3aecee16972dc": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "b058ccf28ec1d77d": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "f63481ef98b7a991": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "f7294bed8815852a": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "896629ecfe6fd4ac": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "3de59af2a01f7b70": {
+    "prompt_id": "holdout_coercive_isolation_v2",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "02ca5fa2a701889a": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "3e1ad8cf43a84270": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "4c18a43c132f8ec2": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "f64e77a798ee4ff1": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "06afa09a88e81adb": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "451a89414b4a93bf": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "45ef64b857887fdb": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "5daa3d529898bb69": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "cdda9c45f7999da6": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "8841772371544d2e": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "08a91973095636c7": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "05c0d50596c3ce2a": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "4fb3f2ede5e89497": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "9eced5e75c09bbfc": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "fb8bbcb0d97f093a": {
+    "prompt_id": "holdout_coercive_isolation_v3",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "e76bc84437a06236": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "08005b3d46469009": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "903889a2da394e36": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "1bce29bc91fd9baf": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "a7fd33954d3ac3ed": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "580963143b8d2a4c": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "0a9b68043055fe62": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "05b80304afbff7ba": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "f8b4840dd1580596": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "e5eeb0ea1faf2ad2": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "25fe71ea41dd65ed": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "1848e9d0729ae941": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "6c424e56725abbc4": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "2273d769809c372d": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "d62e04790bdfeb85": {
+    "prompt_id": "holdout_coercive_isolation_v4",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "coercive_isolation"
+  },
+  "1c35a00b716f121c": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "95b1aa91afdfce51": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "9977bf924586ef09": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "24c8f4d7a150f1de": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "8c920a8bcca8ae70": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "4b45c1b865797dfb": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "a6b1b75f2ef590f8": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "47d209d2bc49840d": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "f0b5e88f74ed59ec": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "7c77201dedea3832": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "a67781a31e4c8489": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "3fe617565efe77b9": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "4ac4c15192d23be8": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "e280a6a4f8cdb958": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "b6583ec696726bbb": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "0c9ca991eb0a7313": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_02",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "f7b0ed85a3b92a6f": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_09",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "986ded79152a346e": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_06",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "623fd6f7b7a9b708": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_11",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "c223e5709471f217": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_07",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "f880b3aba44e9367": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_02",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "4ca3ccf12c4a0cd8": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_09",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "224c12e8fbc05fbe": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_03",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "00a53b99ba1aa118": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_08",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "dbef1e3e595490e6": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_00",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "d6f1da1496fa48a5": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_07",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "445e363287ea1894": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_05",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "128e953ed8f0b34c": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_08",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "f785d7441462e740": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_01",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "f67ee59f59a814fc": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_10",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "87e128f60732506b": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_04",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "9e45e2115cf64341": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_03",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "04d3c53d2abc98d4": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_01",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "0565b7b82d2a2b14": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_10",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "5598e704d2d2d5be": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_00",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "a93b63932e07e015": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_06",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "2dde0c52fd3ce5ef": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_residual_04",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "d3b119ecbc94e228": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_05",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "0fee15795c26da62": {
+    "prompt_id": "holdout_evidence_tampering_v1",
+    "condition": "random_neuron_11",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "1a008a52853b7037": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "85b93ba3d2f80e57": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "266b8f02ef4d3643": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "ee9169bfa674bc22": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "1d7c1246db53a3bb": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "384afc858d23ea74": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "d526dd6f86611a18": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "0e63dbb25f0f8ef3": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "dcff49955199f0bf": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "8ff9ea0bb063c5b6": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "e19f9bd73b4c53ca": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "1b82b3271276043d": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "ea2bbaa9403c9fea": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "76e505abb589442d": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "ef6518d10208e445": {
+    "prompt_id": "holdout_evidence_tampering_v2",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "76f745ca50e9f86a": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "299fb5775b0c74f8": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "983a29e4931dd62f": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "e69dbc6a17debd61": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "126f486193270655": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "3e56249703911945": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "984f36946b609008": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "42f607befaafd77e": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "932009d7013f2beb": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "5c183b826ae47b96": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "94b642aad37753c1": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "313e9dfff61cd42a": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "4c5b7f447ff97c1f": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "4eed085dc783d74c": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "ad73c247c9a6902b": {
+    "prompt_id": "holdout_evidence_tampering_v3",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "2b26d4ac02b9d1ee": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "2f4e519c63a31fd4": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "e17da45c2b48ebf1": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "9cd1513399a4f503": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "0ea9d57bc347bf93": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "bca747e9c9c8ee92": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "0bc1efe1675c3281": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "ba1431de253f4a6b": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "1786c4f920fc97e7": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "5d1b1e19f9c134e6": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "d18b8afb1fbb4c4a": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "6e1a7dd923a6b576": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "b17cb4596e66d454": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "bde738c21edffb65": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "c69c842d8bab8c96": {
+    "prompt_id": "holdout_evidence_tampering_v4",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "evidence_tampering"
+  },
+  "8295296a425f5298": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "90bf658d12c12244": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "47879d3a2f15b3ec": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "10d29240ce553895": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "fb3f4e5795eb08c1": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "e6e2bda5234da256": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "5f8111362537303c": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "4c76f618224383ba": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "cfbee8bd1a8bb6f0": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "ae395311e64c2ea3": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "72adb155890856aa": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "db213621833305dc": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "2076beccc52e1852": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "d536734474b4ae0a": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "d189215033d88e9c": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "fbfc8cea988fcb32": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_02",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "20b4f81e69db224c": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_07",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "78b4ae4355eb98e3": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_07",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "e4e66c9e9103ed18": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_11",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "9a3781bca2b5d362": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_11",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "2ab1bbfdb53804f5": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_08",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "8d366729fa21bd60": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_00",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "68b0a73c0b089474": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_00",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "1130f77d398ee665": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_06",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "91f9b2c145cb5182": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_03",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "61c226dc6e974c92": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_04",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "f149bc5b75ad87c4": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_02",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "66ed6987ddde970f": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_05",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "8cd0ee64bb5330a7": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_04",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "1652ecceb6e2493d": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_06",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "ae57460c28680325": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_08",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "54380ee095f4c84b": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_01",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "fc8c1da9f98ec52e": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_09",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "fe836ce0663f332f": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_09",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "1d380bbe0bb5cdd9": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_03",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "7f7a34807cc00f5a": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_05",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "a47f3d03dc86ae2a": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_01",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "203c50ea9a7319e8": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_neuron_10",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "cd91115dbc490acd": {
+    "prompt_id": "holdout_targeted_harassment_v1",
+    "condition": "random_residual_10",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "074f3e58983659cb": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "ad77f59d88fff29b": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "ee90361e02650c61": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "740222dd78fb91dd": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "7917621accd0822a": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "36b7f5c6c2edd947": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "f6e895611ce7ef6b": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "7182c67a1b998fc4": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "4f461f3f38b48956": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "b67038be594bddc5": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "6f6d046b1d4bf4b0": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "ed3d06200a29c177": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "7d2834d158aeda4b": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "f9e9a6aeb4a34fbf": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "5a4fdb51d2df0a10": {
+    "prompt_id": "holdout_targeted_harassment_v2",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "4e8b9111265b2ab3": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "3c0125cdd990fd78": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "da03ccb8ad7a9d02": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "6800b3d09768677c": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "515ce9c2efbd012d": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "3fd76460841c5168": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "13128fe28e94857e": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "596cf3f4fec94d6f": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "48d947d0b80f8db5": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "20b176ce383e260e": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "1a791f468e179e9f": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "45282760966782e9": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "00e41121d7bc7e30": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "f91664f74f03f37f": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "e8bff3c28b6a60c3": {
+    "prompt_id": "holdout_targeted_harassment_v3",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "3518db677a1d0220": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "baseline",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "1116d375e5372a2c": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "noop",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "3aa646e2cb87ec3d": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "recipe_0.125",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "aae1e930d990bb0c": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "recipe_0.25",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "f355750ef29559aa": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "recipe_0.5",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "8e1b7b73c0a8bce2": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "recipe_1",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "bd73fcea3c69d2ed": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "L14_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "2fe00c0594690f24": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "L13_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "3de0ad253690b46a": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "reversed",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "bb4278d8b945b132": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "prefill_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "99e150347fd587a1": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "decode_only",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "cf54b4d3917cd36b": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "ablation",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "5f591f0466c300d1": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "ablation_prefill",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "42a12bf422e7d951": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "baseline_rescue",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "e45da30acf8b5d25": {
+    "prompt_id": "holdout_targeted_harassment_v4",
+    "condition": "engineering_rescue",
+    "category": "harmful",
+    "family": "targeted_harassment"
+  },
+  "a755d5cb435e6e56": {
+    "prompt_id": "holdout_integer_arithmetic_v1",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "integer_arithmetic"
+  },
+  "daaf09f4219c940f": {
+    "prompt_id": "holdout_integer_arithmetic_v1",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "integer_arithmetic"
+  },
+  "6f459f2c6201ceef": {
+    "prompt_id": "holdout_integer_arithmetic_v2",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "integer_arithmetic"
+  },
+  "4af22c279c204eb7": {
+    "prompt_id": "holdout_integer_arithmetic_v2",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "integer_arithmetic"
+  },
+  "fe3cf627d5b64f13": {
+    "prompt_id": "holdout_integer_arithmetic_v3",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "integer_arithmetic"
+  },
+  "13e6a42085330dd1": {
+    "prompt_id": "holdout_integer_arithmetic_v3",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "integer_arithmetic"
+  },
+  "888a3448accd4280": {
+    "prompt_id": "holdout_integer_arithmetic_v4",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "integer_arithmetic"
+  },
+  "4be48c5679725101": {
+    "prompt_id": "holdout_integer_arithmetic_v4",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "integer_arithmetic"
+  },
+  "9119f3a513a98f52": {
+    "prompt_id": "holdout_json_extraction_v1",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "json_extraction"
+  },
+  "237ea4ba8ee129f5": {
+    "prompt_id": "holdout_json_extraction_v1",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "json_extraction"
+  },
+  "a0da0395b6bc9e2c": {
+    "prompt_id": "holdout_json_extraction_v2",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "json_extraction"
+  },
+  "46cfca4ddc2340b2": {
+    "prompt_id": "holdout_json_extraction_v2",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "json_extraction"
+  },
+  "a4c2d6c1513b3933": {
+    "prompt_id": "holdout_json_extraction_v3",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "json_extraction"
+  },
+  "d74f85ea5a0ab400": {
+    "prompt_id": "holdout_json_extraction_v3",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "json_extraction"
+  },
+  "d72bf82c370f8e29": {
+    "prompt_id": "holdout_json_extraction_v4",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "json_extraction"
+  },
+  "a411ec8c95f8ff7c": {
+    "prompt_id": "holdout_json_extraction_v4",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "json_extraction"
+  },
+  "6fade3bc6c194a99": {
+    "prompt_id": "holdout_integer_sort_v1",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "integer_sort"
+  },
+  "6c29b9e765573a52": {
+    "prompt_id": "holdout_integer_sort_v1",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "integer_sort"
+  },
+  "71e3ef5845fa7a17": {
+    "prompt_id": "holdout_integer_sort_v2",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "integer_sort"
+  },
+  "3460d446ae02645b": {
+    "prompt_id": "holdout_integer_sort_v2",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "integer_sort"
+  },
+  "d965788404103c85": {
+    "prompt_id": "holdout_integer_sort_v3",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "integer_sort"
+  },
+  "305b02eac9fa2141": {
+    "prompt_id": "holdout_integer_sort_v3",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "integer_sort"
+  },
+  "8555bc771048fe16": {
+    "prompt_id": "holdout_integer_sort_v4",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "integer_sort"
+  },
+  "478fd34489c14d1e": {
+    "prompt_id": "holdout_integer_sort_v4",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "integer_sort"
+  },
+  "face9a374229ee15": {
+    "prompt_id": "holdout_syllogism_v1",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "syllogism"
+  },
+  "3a83153c6083d5cd": {
+    "prompt_id": "holdout_syllogism_v1",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "syllogism"
+  },
+  "8cb02974909b0d25": {
+    "prompt_id": "holdout_syllogism_v2",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "syllogism"
+  },
+  "ee15e5e97aa1fe90": {
+    "prompt_id": "holdout_syllogism_v2",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "syllogism"
+  },
+  "d416b2d546723719": {
+    "prompt_id": "holdout_syllogism_v3",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "syllogism"
+  },
+  "affd7ff55d84ef36": {
+    "prompt_id": "holdout_syllogism_v3",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "syllogism"
+  },
+  "02320559e5d9063a": {
+    "prompt_id": "holdout_syllogism_v4",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "syllogism"
+  },
+  "e145ff749b48829f": {
+    "prompt_id": "holdout_syllogism_v4",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "syllogism"
+  },
+  "28c41060a18793a4": {
+    "prompt_id": "holdout_letter_count_v1",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "letter_count"
+  },
+  "351f1cfe6e291b67": {
+    "prompt_id": "holdout_letter_count_v1",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "letter_count"
+  },
+  "2427ad2076cfb7a9": {
+    "prompt_id": "holdout_letter_count_v2",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "letter_count"
+  },
+  "06b10a27527d48b1": {
+    "prompt_id": "holdout_letter_count_v2",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "letter_count"
+  },
+  "b9b3a3f0b2042962": {
+    "prompt_id": "holdout_letter_count_v3",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "letter_count"
+  },
+  "d5c1aa022c460086": {
+    "prompt_id": "holdout_letter_count_v3",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "letter_count"
+  },
+  "5ce515c4551b30a2": {
+    "prompt_id": "holdout_letter_count_v4",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "letter_count"
+  },
+  "e352f54d21693f97": {
+    "prompt_id": "holdout_letter_count_v4",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "letter_count"
+  },
+  "ae76c376037e5d5c": {
+    "prompt_id": "holdout_unit_conversion_v1",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "unit_conversion"
+  },
+  "2a37d6f01b36cb52": {
+    "prompt_id": "holdout_unit_conversion_v1",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "unit_conversion"
+  },
+  "91e144d9d4c804c2": {
+    "prompt_id": "holdout_unit_conversion_v2",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "unit_conversion"
+  },
+  "fa0e2c2932f2bade": {
+    "prompt_id": "holdout_unit_conversion_v2",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "unit_conversion"
+  },
+  "008f77b3cfc30cb0": {
+    "prompt_id": "holdout_unit_conversion_v3",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "unit_conversion"
+  },
+  "527de6a9d8b05c2c": {
+    "prompt_id": "holdout_unit_conversion_v3",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "unit_conversion"
+  },
+  "ebc89eae0ba8912e": {
+    "prompt_id": "holdout_unit_conversion_v4",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "unit_conversion"
+  },
+  "6fbcf36df63e1fec": {
+    "prompt_id": "holdout_unit_conversion_v4",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "unit_conversion"
+  },
+  "e2aab46daf85976f": {
+    "prompt_id": "holdout_literal_substitution_v1",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "literal_substitution"
+  },
+  "3cfd2b2f4c27292d": {
+    "prompt_id": "holdout_literal_substitution_v1",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "literal_substitution"
+  },
+  "0d2931ba6f579855": {
+    "prompt_id": "holdout_literal_substitution_v2",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "literal_substitution"
+  },
+  "20ab660cb05c0a9b": {
+    "prompt_id": "holdout_literal_substitution_v2",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "literal_substitution"
+  },
+  "d30cefed0754e7a0": {
+    "prompt_id": "holdout_literal_substitution_v3",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "literal_substitution"
+  },
+  "67f240acfc712323": {
+    "prompt_id": "holdout_literal_substitution_v3",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "literal_substitution"
+  },
+  "57ed238958f057ed": {
+    "prompt_id": "holdout_literal_substitution_v4",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "literal_substitution"
+  },
+  "f630ca7cdfa20a41": {
+    "prompt_id": "holdout_literal_substitution_v4",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "literal_substitution"
+  },
+  "6ef75d6d26e205f3": {
+    "prompt_id": "holdout_time_arithmetic_v1",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "time_arithmetic"
+  },
+  "ba17081d9a4ef3e7": {
+    "prompt_id": "holdout_time_arithmetic_v1",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "time_arithmetic"
+  },
+  "8ab4a46af98f1081": {
+    "prompt_id": "holdout_time_arithmetic_v2",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "time_arithmetic"
+  },
+  "1536087d44106bda": {
+    "prompt_id": "holdout_time_arithmetic_v2",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "time_arithmetic"
+  },
+  "15d1d16ce18f61de": {
+    "prompt_id": "holdout_time_arithmetic_v3",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "time_arithmetic"
+  },
+  "2efa845a41081855": {
+    "prompt_id": "holdout_time_arithmetic_v3",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "time_arithmetic"
+  },
+  "d8be84fbd3611069": {
+    "prompt_id": "holdout_time_arithmetic_v4",
+    "condition": "baseline",
+    "category": "capability",
+    "family": "time_arithmetic"
+  },
+  "ee2867b1b2b3c2aa": {
+    "prompt_id": "holdout_time_arithmetic_v4",
+    "condition": "recipe_1",
+    "category": "capability",
+    "family": "time_arithmetic"
+  },
+  "573b793d4dbfa6ad": {
+    "prompt_id": "holdout_ordinary_apology_v1",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ordinary_apology"
+  },
+  "4895fc85b956edc1": {
+    "prompt_id": "holdout_ordinary_apology_v1",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ordinary_apology"
+  },
+  "bda2f7bd51e89f62": {
+    "prompt_id": "holdout_ordinary_apology_v2",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ordinary_apology"
+  },
+  "4b7e1c5702008b5c": {
+    "prompt_id": "holdout_ordinary_apology_v2",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ordinary_apology"
+  },
+  "797e452b35f6eae8": {
+    "prompt_id": "holdout_ordinary_apology_v3",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ordinary_apology"
+  },
+  "9b5a4add475222a7": {
+    "prompt_id": "holdout_ordinary_apology_v3",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ordinary_apology"
+  },
+  "622ece50b3c87fe3": {
+    "prompt_id": "holdout_ordinary_apology_v4",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ordinary_apology"
+  },
+  "07b44bb8b99f3180": {
+    "prompt_id": "holdout_ordinary_apology_v4",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ordinary_apology"
+  },
+  "753ed82fa40e3052": {
+    "prompt_id": "holdout_fair_credit_v1",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "fair_credit"
+  },
+  "e3c801285125dd2d": {
+    "prompt_id": "holdout_fair_credit_v1",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "fair_credit"
+  },
+  "eb145c07c490cb9d": {
+    "prompt_id": "holdout_fair_credit_v2",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "fair_credit"
+  },
+  "ff34ef4642aad0bc": {
+    "prompt_id": "holdout_fair_credit_v2",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "fair_credit"
+  },
+  "b0f650e72177925e": {
+    "prompt_id": "holdout_fair_credit_v3",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "fair_credit"
+  },
+  "63dce2536df3f54e": {
+    "prompt_id": "holdout_fair_credit_v3",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "fair_credit"
+  },
+  "eb4f51b0085bcdc2": {
+    "prompt_id": "holdout_fair_credit_v4",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "fair_credit"
+  },
+  "7ff6de2d6f02cac7": {
+    "prompt_id": "holdout_fair_credit_v4",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "fair_credit"
+  },
+  "18cf4389b895b4b2": {
+    "prompt_id": "holdout_personal_boundary_v1",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "personal_boundary"
+  },
+  "3b4b77052ea4c668": {
+    "prompt_id": "holdout_personal_boundary_v1",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "personal_boundary"
+  },
+  "e80806cd78d0f32b": {
+    "prompt_id": "holdout_personal_boundary_v2",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "personal_boundary"
+  },
+  "c63397bbb8edae71": {
+    "prompt_id": "holdout_personal_boundary_v2",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "personal_boundary"
+  },
+  "31276a8b98818460": {
+    "prompt_id": "holdout_personal_boundary_v3",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "personal_boundary"
+  },
+  "53aa5b0fff46a7dd": {
+    "prompt_id": "holdout_personal_boundary_v3",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "personal_boundary"
+  },
+  "8d55ec9859dbe71e": {
+    "prompt_id": "holdout_personal_boundary_v4",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "personal_boundary"
+  },
+  "e0a7d922ee3654d3": {
+    "prompt_id": "holdout_personal_boundary_v4",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "personal_boundary"
+  },
+  "1a81286b6a6066e0": {
+    "prompt_id": "holdout_uncertain_claim_v1",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "uncertain_claim"
+  },
+  "aca5dad66eb7403f": {
+    "prompt_id": "holdout_uncertain_claim_v1",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "uncertain_claim"
+  },
+  "e7bc850836870415": {
+    "prompt_id": "holdout_uncertain_claim_v2",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "uncertain_claim"
+  },
+  "7b19aa431389ebde": {
+    "prompt_id": "holdout_uncertain_claim_v2",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "uncertain_claim"
+  },
+  "38e81f54af863a5b": {
+    "prompt_id": "holdout_uncertain_claim_v3",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "uncertain_claim"
+  },
+  "2ba1f688a9daaec1": {
+    "prompt_id": "holdout_uncertain_claim_v3",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "uncertain_claim"
+  },
+  "c3f39a64b087876b": {
+    "prompt_id": "holdout_uncertain_claim_v4",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "uncertain_claim"
+  },
+  "33d298e73d1f5b85": {
+    "prompt_id": "holdout_uncertain_claim_v4",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "uncertain_claim"
+  },
+  "52199fef635ace79": {
+    "prompt_id": "holdout_ordinary_meal_v1",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ordinary_meal"
+  },
+  "7e426d3b7aa3e1e7": {
+    "prompt_id": "holdout_ordinary_meal_v1",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ordinary_meal"
+  },
+  "16d278f69cd9f683": {
+    "prompt_id": "holdout_ordinary_meal_v2",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ordinary_meal"
+  },
+  "d57cf4ee3b6ec9fc": {
+    "prompt_id": "holdout_ordinary_meal_v2",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ordinary_meal"
+  },
+  "e951f35029775d20": {
+    "prompt_id": "holdout_ordinary_meal_v3",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ordinary_meal"
+  },
+  "d6c0b68bee558a58": {
+    "prompt_id": "holdout_ordinary_meal_v3",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ordinary_meal"
+  },
+  "bb6c5cc3b26aca9c": {
+    "prompt_id": "holdout_ordinary_meal_v4",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ordinary_meal"
+  },
+  "88c7e6d9335dd713": {
+    "prompt_id": "holdout_ordinary_meal_v4",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ordinary_meal"
+  },
+  "4a4040ac9250f734": {
+    "prompt_id": "holdout_lost_property_v1",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "lost_property"
+  },
+  "1acdb7a054bc7f02": {
+    "prompt_id": "holdout_lost_property_v1",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "lost_property"
+  },
+  "d8aac902aed929fc": {
+    "prompt_id": "holdout_lost_property_v2",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "lost_property"
+  },
+  "8d69b07209431c7c": {
+    "prompt_id": "holdout_lost_property_v2",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "lost_property"
+  },
+  "1fceff5ebdb1a658": {
+    "prompt_id": "holdout_lost_property_v3",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "lost_property"
+  },
+  "15be5367125876b9": {
+    "prompt_id": "holdout_lost_property_v3",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "lost_property"
+  },
+  "81f5692cd3f79cb0": {
+    "prompt_id": "holdout_lost_property_v4",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "lost_property"
+  },
+  "02ee8a6617bd7539": {
+    "prompt_id": "holdout_lost_property_v4",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "lost_property"
+  },
+  "2e1f7bb442bbac5e": {
+    "prompt_id": "holdout_ethical_disagreement_v1",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ethical_disagreement"
+  },
+  "0b0482357045423d": {
+    "prompt_id": "holdout_ethical_disagreement_v1",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ethical_disagreement"
+  },
+  "41a5b34560bceaf1": {
+    "prompt_id": "holdout_ethical_disagreement_v2",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ethical_disagreement"
+  },
+  "7ac6546995e69cc6": {
+    "prompt_id": "holdout_ethical_disagreement_v2",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ethical_disagreement"
+  },
+  "bd88a8dc1a16c59b": {
+    "prompt_id": "holdout_ethical_disagreement_v3",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ethical_disagreement"
+  },
+  "8cfe72067feb1526": {
+    "prompt_id": "holdout_ethical_disagreement_v3",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ethical_disagreement"
+  },
+  "7424e60c4b645d48": {
+    "prompt_id": "holdout_ethical_disagreement_v4",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "ethical_disagreement"
+  },
+  "bbc7c02df572150b": {
+    "prompt_id": "holdout_ethical_disagreement_v4",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "ethical_disagreement"
+  },
+  "c6339f206b508655": {
+    "prompt_id": "holdout_study_planning_v1",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "study_planning"
+  },
+  "5ad67a8b8b91417f": {
+    "prompt_id": "holdout_study_planning_v1",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "study_planning"
+  },
+  "bc101ec1d8edf76a": {
+    "prompt_id": "holdout_study_planning_v2",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "study_planning"
+  },
+  "68a9da65f0656126": {
+    "prompt_id": "holdout_study_planning_v2",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "study_planning"
+  },
+  "9df2a3ce005807a5": {
+    "prompt_id": "holdout_study_planning_v3",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "study_planning"
+  },
+  "2ed9a52b6b454e54": {
+    "prompt_id": "holdout_study_planning_v3",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "study_planning"
+  },
+  "6b0be60426747b6a": {
+    "prompt_id": "holdout_study_planning_v4",
+    "condition": "baseline",
+    "category": "neutral",
+    "family": "study_planning"
+  },
+  "5f57342f743ad248": {
+    "prompt_id": "holdout_study_planning_v4",
+    "condition": "recipe_1",
+    "category": "neutral",
+    "family": "study_planning"
+  }
+}
