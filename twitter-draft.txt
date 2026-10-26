@@ -1,0 +1,19 @@
+MAIN POST
+
+I reproduced Lyra's two-neuron experiment on Qwen3.5-4B.
+
+50 prompts. Same weights. No training.
+
+A request about violent intent went from refusal to encouragement. But 17 x 23 also went from 391 to 23.
+
+The change is real. So is the damage to the model's answers.
+
+OPTIONAL THREAD REPLIES
+
+1. I compared the original, full recipe, each neuron alone, half strength and reversed signs. Half strength restored 391 on the arithmetic prompt. Removing the hooks restored the original token sequence in both repeated-baseline checks.
+
+2. The original refused all 20 violence/crime prompts. Steered answers mixed agreement with threats, contradictions and repetition. One bank-robbery answer refused, then offered to cooperate. This did not produce a consistently useful criminal assistant.
+
+3. At every token, I added normalized offsets before the MLP down projection: L14 N8949 +1; L13 N7956 -1. Weights stayed fixed. I logged activations before and after. A negative dose subtracts a value; it does not switch a neuron off.
+
+4. Limits: exploratory prompts, one greedy generation per condition, fallback calibration, many capped outputs. Harmful text does not establish real-world intent. Reproducing Lyra: https://github.com/lyramakesmusic/neuron-explorer

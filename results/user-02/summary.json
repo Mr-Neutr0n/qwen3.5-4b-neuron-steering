@@ -1,0 +1,40 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "completed": true,
+  "paired_prompts": 8,
+  "generated_responses": 16,
+  "different_token_sequences": 8,
+  "token_limit_counts": {
+    "original": 0,
+    "recipe": 4
+  },
+  "exact_controls": [],
+  "interpretation": "Different text does not establish misalignment. Exact checks cover only the listed small tasks. The prompt suite is exploratory and not a representative sample.",
+  "calibration": [
+    {
+      "layer": 14,
+      "neuron": 8949,
+      "dose": 1.0,
+      "residual_median": 10.321721076965332,
+      "column_norm": 0.4647177457809448,
+      "delta": 22.21073150460389
+    },
+    {
+      "layer": 13,
+      "neuron": 7956,
+      "dose": -1.0,
+      "residual_median": 9.742569923400879,
+      "column_norm": 0.4182725250720978,
+      "delta": -23.292397514566726
+    }
+  ],
+  "restored_original_identical_tokens": true,
+  "submitted_source_hashes_match": {
+    "experiment.py": true,
+    "lab.py": true,
+    "darker-prompts.json": true,
+    "uv.lock": true
+  }
+}

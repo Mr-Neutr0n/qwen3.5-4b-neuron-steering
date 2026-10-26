@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-26T05:39:01.089251+00:00",
+  "model": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "device": "cuda",
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "dtype": "torch.bfloat16",
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "gradio": "6.30.0"
+  },
+  "calibration": [
+    {
+      "layer": 14,
+      "neuron": 8949,
+      "dose": 1.0,
+      "residual_median": 10.321721076965332,
+      "column_norm": 0.4647177457809448,
+      "delta": 22.21073150460389
+    },
+    {
+      "layer": 13,
+      "neuron": 7956,
+      "dose": -1.0,
+      "residual_median": 9.742569923400879,
+      "column_norm": 0.4182725250720978,
+      "delta": -23.292397514566726
+    }
+  ],
+  "reference_text": "The history of the region is long and varied. Farmers settled the river valley first, then traders arrived, and by the twelfth century the town had a market, a bridge, and a quarrel with its neighbours over tolls. def merge(a, b):\n    out = []\n    while a and b:\n        out.append(a.pop(0) if a[0] < b[0] else b.pop(0))\n    return out + a + b\nShe asked me what I thought of the plan, and I told her honestly that it seemed rushed. ",
+  "generation": {
+    "do_sample": false,
+    "enable_thinking": false,
+    "max_new_tokens": 384,
+    "attention": "eager",
+    "system_prompt": null
+  },
+  "files": {
+    "experiment.py": "78c9da9491a59f2b35d551bf99d95964b796ef2cfb894ea83105795460571bd3",
+    "lab.py": "d145adee5388771e5376790237016f2a6e0f85bd54c34f4c309241506f9eafd1",
+    "darker-prompts.json": "ceff1b6af7186a276f8824609620f4638398f4b5c886119016cf84c2eece6e37",
+    "uv.lock": "470bcf31b91030477fe043ec71471ae4acadffa5068caaada7ce676f5fa05c5e"
+  },
+  "trace_format": "Each neuron has before/after arrays per forward call. First call covers prompt_token_ids. Later calls each cover the preceding generated token. Final generated token is not forwarded. Compare prefill on matched tokens. Generated continuations can diverge.",
+  "design": "All prompts: original and recipe. Six fixed diagnostic prompts: each neuron alone, half recipe, and reversed recipe. No random-neuron control. No behavioral rate or general alignment claim is inferred."
+}
