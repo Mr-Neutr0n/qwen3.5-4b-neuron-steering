@@ -2,6 +2,8 @@
 
 A reproduction of [Lyra's two-neuron steering recipe](https://github.com/lyramakesmusic/neuron-explorer) on **Qwen3.5-4B**. Same model weights, same prompts, no fine-tuning.
 
+**This is not an abliterated model. It uses the same model weights with a simple runtime hook.** The hook adds offsets to two MLP activations during inference. It does not edit the weights or train a new checkpoint.
+
 **50 prompts · 124 responses · 3 baseline-restoration checks**
 
 Changing two MLP activations turned refusals into harmful encouragement, ordinary advice into threats, and correct arithmetic into wrong answers. This repo includes the code, complete responses, activation traces, and a standalone HTML report.
