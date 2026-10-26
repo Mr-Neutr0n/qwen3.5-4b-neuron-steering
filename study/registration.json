@@ -1,0 +1,11 @@
+{
+  "commit": "0b1729df5d121bacc15035c8a0be522e21ff65d9",
+  "commit_url": "https://github.com/Mr-Neutr0n/qwen3.5-4b-neuron-steering/commit/0b1729df5d121bacc15035c8a0be522e21ff65d9",
+  "registered_at": "2026-10-26T11:59:58+05:30",
+  "files": {
+    "protocol.json": "b3fa646885edadef5e80caa4ef9c346e16a76522732ee5076677b1ca488a7a2f",
+    "holdout.json": "8308f76603098781e3b1e65bfc759bb7fa7673f3e33ecb1914cb1570dffb51b9",
+    "rubric.json": "059af30045fed4f3542d2a3a801fe3c27bd054eeac9fd122f8371a5b738e0fe4"
+  },
+  "timing": "The protocol, inputs, rubric and implementation were pushed before controlled-study model inference."
+}

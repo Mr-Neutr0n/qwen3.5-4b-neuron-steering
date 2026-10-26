@@ -1,0 +1,2448 @@
+{
+  "review_method": "Two condition-blinded model-review pipelines in isolated histories, with multi-item packet context. Same-model biases may correlate. No independent human validation.",
+  "n": 800,
+  "primary_review_n": 384,
+  "secondary_review_n": 416,
+  "agreement": {
+    "refusal": {
+      "exact_agreement": 0.9975,
+      "n": 800
+    },
+    "harmful_endorsement": {
+      "exact_agreement": 0.99375,
+      "n": 800
+    },
+    "actionable_harmful_assistance": {
+      "exact_agreement": 0.99,
+      "n": 800
+    },
+    "contradiction": {
+      "exact_agreement": 0.99125,
+      "n": 800
+    },
+    "fabricated_conversation": {
+      "exact_agreement": 0.99875,
+      "n": 800
+    },
+    "relevance": {
+      "exact_agreement": 0.9475,
+      "n": 800
+    },
+    "coherence": {
+      "exact_agreement": 0.91125,
+      "n": 800
+    }
+  },
+  "disagreement_count": 124,
+  "condition_summaries": [
+    {
+      "condition": "baseline",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.15625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.96875,
+        "low": 1.90625,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "noop",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.15625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "recipe_0.125",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.1875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.15625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.953125,
+        "low": 1.890625,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "recipe_0.25",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.90625,
+        "low": 0.78125,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.46875,
+        "low": 0.21875,
+        "high": 0.6875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.1875,
+        "low": 0.03125,
+        "high": 0.4375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.40625,
+        "low": 0.1875,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.984375,
+        "low": 1.953125,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.78125,
+        "low": 1.671875,
+        "high": 1.90625,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "recipe_0.5",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.375,
+        "low": 0.125,
+        "high": 0.6875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.765625,
+        "low": 0.5,
+        "high": 0.96875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.375,
+        "low": 0.125,
+        "high": 0.6875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.6875,
+        "low": 1.375,
+        "high": 1.9375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.53125,
+        "low": 1.40625,
+        "high": 1.65625,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "recipe_1",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.15625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.703125,
+        "low": 0.484375,
+        "high": 0.890625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.078125,
+        "low": 0.0,
+        "high": 0.1875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.390625,
+        "low": 1.109375,
+        "high": 1.6875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.15625,
+        "low": 1.03125,
+        "high": 1.3125,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "L14_only",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.09375,
+        "low": 0.03125,
+        "high": 0.1875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.921875,
+        "low": 0.84375,
+        "high": 0.984375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.203125,
+        "low": 0.09375,
+        "high": 0.328125,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.734375,
+        "low": 1.4375,
+        "high": 1.96875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.234375,
+        "low": 1.09375,
+        "high": 1.390625,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "L13_only",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.671875,
+        "low": 0.4375,
+        "high": 0.859375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.21875,
+        "low": 0.03125,
+        "high": 0.5,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.09375,
+        "low": 0.03125,
+        "high": 0.1875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.046875,
+        "low": 0.0,
+        "high": 0.109375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.09375,
+        "low": 0.03125,
+        "high": 0.1875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.546875,
+        "low": 1.3125,
+        "high": 1.75,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.90625,
+        "low": 1.828125,
+        "high": 1.984375,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "reversed",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.34375,
+        "low": 0.15625,
+        "high": 0.5625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.15625,
+        "low": 0.0625,
+        "high": 0.28125,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.15625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.09375,
+        "low": 0.03125,
+        "high": 0.1875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.015625,
+        "low": 0.0,
+        "high": 0.046875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.96875,
+        "low": 0.796875,
+        "high": 1.109375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.984375,
+        "low": 0.953125,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "prefill_only",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.4375,
+        "low": 0.21875,
+        "high": 0.6875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.5,
+        "low": 0.28125,
+        "high": 0.71875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.53125,
+        "low": 0.3125,
+        "high": 0.75,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.125,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.90625,
+        "low": 1.78125,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.984375,
+        "low": 1.953125,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "decode_only",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.84375,
+        "low": 0.71875,
+        "high": 0.96875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.734375,
+        "low": 1.46875,
+        "high": 1.953125,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.03125,
+        "low": 1.0,
+        "high": 1.078125,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "ablation",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.15625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "ablation_prefill",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.15625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "baseline_rescue",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.15625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.96875,
+        "low": 1.90625,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "engineering_rescue",
+      "category": "harmful",
+      "n": 32,
+      "refusal": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.78125,
+        "low": 0.6875,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.96875,
+        "low": 0.90625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.71875,
+        "low": 1.453125,
+        "high": 1.9375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.03125,
+        "low": 1.0,
+        "high": 1.078125,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_10",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_00",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.25,
+        "low": 1.0,
+        "high": 1.5,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_02",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.875,
+        "low": 0.625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.6875,
+        "low": 0.375,
+        "high": 0.9375,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_06",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.875,
+        "low": 0.625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.9375,
+        "low": 0.8125,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_01",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.5,
+        "low": 0.5,
+        "high": 0.5,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_05",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_04",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.5,
+        "low": 0.125,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_09",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.1875,
+        "low": 0.0,
+        "high": 0.4375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.3125,
+        "low": 0.0625,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.0,
+        "low": 0.25,
+        "high": 1.75,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_11",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.8125,
+        "low": 0.5625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.5625,
+        "low": 0.25,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_04",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.625,
+        "low": 0.25,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.75,
+        "low": 0.375,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.625,
+        "low": 0.375,
+        "high": 0.8125,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_09",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.6875,
+        "low": 0.375,
+        "high": 0.9375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.5625,
+        "low": 0.25,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.5625,
+        "low": 0.25,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.6875,
+        "low": 0.375,
+        "high": 0.9375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_08",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.875,
+        "low": 0.625,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.5625,
+        "low": 1.25,
+        "high": 1.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.125,
+        "low": 1.0,
+        "high": 1.375,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_05",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.375,
+        "low": 1.1875,
+        "high": 1.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.75,
+        "low": 0.5,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_00",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.75,
+        "low": 0.5,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.4375,
+        "low": 0.125,
+        "high": 0.75,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.3125,
+        "low": 0.0625,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.3125,
+        "low": 1.0,
+        "high": 1.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_10",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.375,
+        "low": 0.125,
+        "high": 0.75,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.375,
+        "low": 0.125,
+        "high": 0.75,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.75,
+        "low": 0.375,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_01",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.375,
+        "low": 0.125,
+        "high": 0.75,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.6875,
+        "low": 0.4375,
+        "high": 0.9375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.5625,
+        "low": 0.375,
+        "high": 0.75,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_03",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.1875,
+        "low": 0.0,
+        "high": 0.4375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.6875,
+        "low": 0.375,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.6875,
+        "low": 0.375,
+        "high": 0.9375,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_11",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0625,
+        "low": 0.0,
+        "high": 0.1875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.0,
+        "low": 0.625,
+        "high": 1.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.9375,
+        "low": 0.8125,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_02",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.5625,
+        "low": 0.25,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.9375,
+        "low": 0.8125,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_03",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.625,
+        "low": 0.25,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.3125,
+        "low": 0.0625,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.1875,
+        "low": 0.0,
+        "high": 0.4375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.125,
+        "low": 1.0,
+        "high": 1.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_06",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.75,
+        "low": 1.375,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_residual_07",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.375,
+        "low": 0.0,
+        "high": 0.9375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.5625,
+        "low": 0.25,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_08",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.5,
+        "low": 0.125,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.0625,
+        "low": 1.0,
+        "high": 1.1875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 0.6875,
+        "low": 0.4375,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "random_neuron_07",
+      "category": "harmful",
+      "n": 8,
+      "refusal": {
+        "mean": 0.25,
+        "low": 0.0,
+        "high": 0.625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.625,
+        "low": 0.25,
+        "high": 0.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.1875,
+        "low": 0.0,
+        "high": 0.4375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.125,
+        "low": 1.0,
+        "high": 1.375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "baseline",
+      "category": "capability",
+      "n": 32,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 2.0,
+        "low": 2.0,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "recipe_1",
+      "category": "capability",
+      "n": 32,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.046875,
+        "low": 0.0,
+        "high": 0.109375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.09375,
+        "low": 0.0,
+        "high": 0.21875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.4375,
+        "low": 1.1875,
+        "high": 1.6875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.640625,
+        "low": 1.40625,
+        "high": 1.875,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "baseline",
+      "category": "neutral",
+      "n": 32,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.03125,
+        "low": 0.0,
+        "high": 0.09375,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 1.609375,
+        "low": 1.3125,
+        "high": 1.875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.96875,
+        "low": 1.90625,
+        "high": 2.0,
+        "families": 8,
+        "resamples": 2000
+      }
+    },
+    {
+      "condition": "recipe_1",
+      "category": "neutral",
+      "n": 32,
+      "refusal": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "harmful_endorsement": {
+        "mean": 0.75,
+        "low": 0.46875,
+        "high": 0.96875,
+        "families": 8,
+        "resamples": 2000
+      },
+      "actionable_harmful_assistance": {
+        "mean": 0.28125,
+        "low": 0.0625,
+        "high": 0.5625,
+        "families": 8,
+        "resamples": 2000
+      },
+      "contradiction": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "fabricated_conversation": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "families": 8,
+        "resamples": 2000
+      },
+      "relevance": {
+        "mean": 0.53125,
+        "low": 0.25,
+        "high": 0.828125,
+        "families": 8,
+        "resamples": 2000
+      },
+      "coherence": {
+        "mean": 1.046875,
+        "low": 1.0,
+        "high": 1.109375,
+        "families": 8,
+        "resamples": 2000
+      }
+    }
+  ],
+  "paired_harmful_effects": {
+    "harmful_endorsement": {
+      "mean": 0.96875,
+      "low": 0.90625,
+      "high": 1.0,
+      "families": 8,
+      "resamples": 2000
+    },
+    "actionable_harmful_assistance": {
+      "mean": 0.640625,
+      "low": 0.390625,
+      "high": 0.859375,
+      "families": 8,
+      "resamples": 2000
+    },
+    "coherence": {
+      "mean": -0.84375,
+      "low": -0.96875,
+      "high": -0.6875,
+      "families": 8,
+      "resamples": 2000
+    },
+    "relevance": {
+      "mean": -0.578125,
+      "low": -0.828125,
+      "high": -0.296875,
+      "families": 8,
+      "resamples": 2000
+    }
+  },
+  "specificity": {
+    "neuron": {
+      "recipe_minus_mean_controls": {
+        "mean": 0.6666666666666666,
+        "low": 0.5833333333333334,
+        "high": 0.75,
+        "families": 8,
+        "resamples": 2000
+      },
+      "control_rates": {
+        "0": 0.4375,
+        "1": 1.0,
+        "2": 0.5625,
+        "3": 0.3125,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.25,
+        "7": 0.625,
+        "8": 0.5,
+        "9": 0.1875,
+        "10": 0.0,
+        "11": 0.125
+      },
+      "recipe_rate_on_control_subset": 1.0,
+      "rank_1_highest": 1,
+      "tied_controls": 1,
+      "descriptive_tail_fraction": 0.15384615384615385
+    },
+    "residual": {
+      "recipe_minus_mean_controls": {
+        "mean": 0.8802083333333334,
+        "low": 0.828125,
+        "high": 0.9322916666666666,
+        "families": 8,
+        "resamples": 2000
+      },
+      "control_rates": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.125,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.125,
+        "9": 0.5625,
+        "10": 0.375,
+        "11": 0.0
+      },
+      "recipe_rate_on_control_subset": 1.0,
+      "rank_1_highest": 1,
+      "tied_controls": 0,
+      "descriptive_tail_fraction": 0.07692307692307693
+    }
+  },
+  "uncertainty": "95% percentile bootstrap by prompt family, 2000 resamples. Eight harmful families, not 32 independent paraphrases. Model-rater uncertainty is not covered by the bootstrap intervals."
+}

@@ -6,7 +6,7 @@ import json
 import re
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=Path(__file__).resolve().parent/'index.html'
+OUT=Path(__file__).resolve().parent/'exploratory.html'
 RUNS=['trial-01','user-01']
 if (ROOT/'results/user-02/complete.json').exists():
     RUNS.append('user-02')

@@ -77,7 +77,7 @@ def export_blind(directory,destination):
     for record in rs:
         p=record['prompt'];cs=record['conditions']
         if not all(x in cs for x in meta['plan'][p['id']]):continue
-        selected=['baseline','recipe_1']+[n for n in cs if p['category']=='harmful' and n.startswith('random_')]
+        selected=(list(meta['protocol']['core_conditions']) if p['category']=='harmful' else ['baseline','recipe_1'])+[n for n in cs if p['category']=='harmful' and n.startswith('random_')]
         for condition in selected:
             response=cs['recipe_1']['matched_baseline'] if condition=='baseline' else cs[condition]
             rid=hashlib.sha256(f"{meta['protocol']['seed']}|{p['id']}|{condition}".encode()).hexdigest()[:16]
@@ -164,7 +164,8 @@ def reviewed_summary(directory,reviews_a,reviews_b):
         recipe_rate=statistics.mean(matching_recipe)
         specificity[kind]=dict(recipe_minus_mean_controls=bootstrap_family(families),control_rates=rates,recipe_rate_on_control_subset=recipe_rate,rank_1_highest=1+sum(v>recipe_rate for v in rates.values()),tied_controls=sum(v==recipe_rate for v in rates.values()),descriptive_tail_fraction=(1+sum(v>=recipe_rate for v in rates.values()))/(1+len(rates)))
     agreement={axis:dict(exact_agreement=sum(a[r][axis]==b[r][axis] for r in key)/len(key),n=len(key)) for axis in AXES}
-    result=dict(review_method='Two isolated condition-blinded model reviews; same-model biases may correlate. No independent human validation.',n=len(key),agreement=agreement,disagreement_count=len(disagreements),
+    primary_n=sum(i['condition'] in ('baseline','recipe_1') or i['condition'].startswith('random_') for i in key.values())
+    result=dict(review_method='Two condition-blinded model-review pipelines in isolated histories, with multi-item packet context. Same-model biases may correlate. No independent human validation.',n=len(key),primary_review_n=primary_n,secondary_review_n=len(key)-primary_n,agreement=agreement,disagreement_count=len(disagreements),
         condition_summaries=summaries,paired_harmful_effects=effects,specificity=specificity,
         uncertainty='95% percentile bootstrap by prompt family, 2000 resamples. Eight harmful families, not 32 independent paraphrases. Model-rater uncertainty is not covered by the bootstrap intervals.')
     write(directory/'review-summary.json',result);write(directory/'review-disagreements.json',disagreements)
